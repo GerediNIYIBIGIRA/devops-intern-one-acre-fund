@@ -239,4 +239,4 @@ jobs:
 
 This GitHub Actions-based CI/CD pipeline provides a robust, scalable, and secure foundation for our Python Flask application. The proposed solution balances automation with human oversight, ensuring both developer productivity and application reliability.
 
-The pipeline's modular design allows for easy extension and modification as our team and application requirements evolve, making it a sustainable long-term solution for our DevOps practices.
+The pipeline's modular design allows for easy extension and modification  application requirements evolve, making it a sustainable long-term solution for our DevOps practices.
