@@ -156,7 +156,7 @@ echo -e "Failed: ${RED}$FAILED${NC}"
 echo -e "Success Rate: $(( PASSED * 100 / (PASSED + FAILED) ))%"
 
 if [ $FAILED -eq 0 ]; then
-    echo -e "\n🎉 ${GREEN}All tests passed! Your DevOps exercise is working perfectly.${NC}"
+    echo -e "\n${GREEN}All tests passed! Your DevOps exercise is working perfectly.${NC}"
     exit 0
 else
     echo -e "\n ${YELLOW}Some tests failed. Please check the issues above.${NC}"
