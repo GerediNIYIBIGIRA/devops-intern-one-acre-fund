@@ -32,6 +32,19 @@ devops-exercise/
 - `k8s/` - Kubernetes deployment manifests
 - `test_suite.sh` - Automated test suite with 92% pass rate
 - `backups/` - Backup and recovery utilities
+- `ci-cd.yml/` - find it in this path devops-exercise\.github\workflows\ci-cd.md: This workflow does the following automatically whenever you push code or create a PR:
+
+Tests your Python code on multiple Python versions.
+
+Measures test coverage.
+
+Performs a security scan.
+
+Builds a Docker image.
+
+Verifies that the Docker container runs correctly.
+
+
 
 ## Getting Started
 
@@ -121,4 +134,4 @@ If you encounter the failing test in `disk_monitor.sh`, check:
 
 ## Author
 
-DevOps Intern Candidate - September 2025
+DevOps Intern Candidate - September 2025(Geredi Niyibigira)

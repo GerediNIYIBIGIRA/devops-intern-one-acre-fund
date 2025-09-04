@@ -1,7 +1,7 @@
 #!/bin/bash
 # Complete demonstration script for DevOps Exercise
 
-echo "🚀 DevOps Exercise Complete Demonstration"
+echo "DevOps Exercise Complete Demonstration"
 echo "========================================="
 
 echo "1. Running disk monitor..."
@@ -25,5 +25,5 @@ echo -e "\n6. Cleanup..."
 docker stop demo-app
 docker rm demo-app
 
-echo -e "\n✅ Demonstration complete!"
+echo -e "\nDemonstration complete!"
 echo "See EXERCISE-REPORT.md for detailed documentation."
