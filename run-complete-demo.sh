@@ -24,7 +24,7 @@ chmod +x disk_monitor.sh
 # crontab -e
 # Add line: */5 * * * * /path/to/disk_monitor.sh
 
-echo "✅ Disk monitoring script created and tested"
+echo "Disk monitoring script created and tested"
 
 # =============================================================================
 # 2. GIT WORKFLOW
@@ -120,7 +120,7 @@ git merge feature/web-application
 # git push -u origin main
 # git push -u origin feature/add-monitoring
 
-echo "✅ Git repository created with branches and commits"
+echo "Git repository created with branches and commits"
 
 # =============================================================================
 # 3. TROUBLESHOOTING SCENARIO - WEB APP DEPLOYMENT
@@ -138,31 +138,31 @@ echo "Application PID: $APP_PID"
 echo "Testing local connectivity..."
 sleep 3  # Wait for app to start
 
-curl -s http://localhost:5000/health && echo "✅ Local connectivity OK" || echo "❌ Local connectivity failed"
+curl -s http://localhost:5000/health && echo "Local connectivity OK" || echo "Local connectivity failed"
 
 # Step 3: Check if application is listening
 echo "Checking if application is listening on port 5000..."
-netstat -tlnp 2>/dev/null | grep :5000 && echo "✅ Port 5000 is listening" || echo "❌ Port 5000 not found"
+netstat -tlnp 2>/dev/null | grep :5000 && echo "Port 5000 is listening" || echo "Port 5000 not found"
 
 # Step 4: Check process
 echo "Checking application process..."
-ps aux | grep -v grep | grep python | grep app.py && echo "✅ Application process found" || echo "❌ Application process not found"
+ps aux | grep -v grep | grep python | grep app.py && echo "Application process found" || echo "Application process not found"
 
 # Step 5: Test with different methods
 echo "Testing with different connection methods..."
 
 # Local curl test
-curl -I http://localhost:5000 2>/dev/null && echo "✅ curl localhost test passed" || echo "❌ curl localhost test failed"
+curl -I http://localhost:5000 2>/dev/null && echo "curl localhost test passed" || echo "curl localhost test failed"
 
 # wget test
-wget --spider --quiet http://localhost:5000 && echo "✅ wget test passed" || echo "❌ wget test failed"
+wget --spider --quiet http://localhost:5000 && echo "wget test passed" || echo "wget test failed"
 
 # External connectivity test (this would typically fail in the troubleshooting scenario)
-# curl -I http://$(hostname -I | cut -d' ' -f1):5000 || echo "❌ External connectivity failed (expected if binding to localhost)"
+# curl -I http://$(hostname -I | cut -d' ' -f1):5000 || echo "External connectivity failed (expected if binding to localhost)"
 
 # Clean up
 kill $APP_PID 2>/dev/null
-echo "✅ Troubleshooting scenario completed"
+echo "Troubleshooting scenario completed"
 
 # =============================================================================
 # 4. CONTAINERIZATION & ORCHESTRATION
@@ -183,7 +183,7 @@ sleep 3
 
 # Test the containerized application
 echo "Testing containerized application..."
-curl -s http://localhost:8080/health && echo "✅ Containerized app health check passed" || echo "❌ Container test failed"
+curl -s http://localhost:8080/health && echo "Containerized app health check passed" || echo "❌ Container test failed"
 
 # Show container status
 echo "Container status:"
@@ -207,7 +207,7 @@ if [ -f "docker-compose.yml" ]; then
     docker-compose down
 fi
 
-echo "✅ Containerization completed"
+echo "Containerization completed"
 
 # =============================================================================
 # 5. SYSTEM MONITORING AND DIAGNOSTICS
@@ -250,7 +250,7 @@ if command -v docker &> /dev/null; then
     docker images --format "table {{.Repository}}\t{{.Tag}}\t{{.Size}}" | head -5
 fi
 
-echo "✅ System diagnostics completed"
+echo "System diagnostics completed"
 
 # =============================================================================
 # 6. KUBERNETES DEPLOYMENT (OPTIONAL EXTRA CREDIT)
@@ -347,7 +347,7 @@ else
     echo "kubectl not found, manifests created but not applied"
 fi
 
-echo "✅ Kubernetes manifests created"
+echo "Kubernetes manifests created"
 
 # =============================================================================
 # 7. PERFORMANCE AND LOAD TESTING
@@ -375,7 +375,7 @@ else
     echo "No application running for load test"
 fi
 
-echo "✅ Performance testing completed"
+echo "Performance testing completed"
 
 # =============================================================================
 # 8. BACKUP AND RECOVERY PROCEDURES
@@ -430,7 +430,7 @@ EOF
 
 chmod +x backups/recovery-script.sh
 
-echo "✅ Backup and recovery procedures completed"
+echo "Backup and recovery procedures completed"
 
 # =============================================================================
 # 9. SECURITY HARDENING
@@ -460,7 +460,7 @@ else
     netstat -tuln | grep LISTEN | head -5
 fi
 
-echo "✅ Security hardening checks completed"
+echo "Security hardening checks completed"
 
 # =============================================================================
 # 10. DOCUMENTATION AND REPORTING
@@ -478,7 +478,7 @@ This report documents the successful completion of all tasks in the DevOps inter
 
 ## Task Completion Status
 
-### ✅ 1. Bash Scripting & Linux Fundamentals
+### 1. Bash Scripting & Linux Fundamentals
 - **Status**: Complete
 - **Deliverables**: 
   - `disk_monitor.sh` - Comprehensive disk monitoring script
@@ -491,7 +491,7 @@ This report documents the successful completion of all tasks in the DevOps inter
   - Error handling and user permissions check
   - Additional diagnostics for high disk usage
 
-### ✅ 2. Git Workflow
+### 2. Git Workflow
 - **Status**: Complete
 - **Repository**: [GitHub Repository Link]
 - **Deliverables**:
@@ -505,7 +505,7 @@ This report documents the successful completion of all tasks in the DevOps inter
   - Branch management
   - Pull request process
 
-### ✅ 3. Troubleshooting Scenario
+### 3. Troubleshooting Scenario
 - **Status**: Complete
 - **Scenario**: Web application connectivity issues
 - **Methodology Applied**:
@@ -519,7 +519,7 @@ This report documents the successful completion of all tasks in the DevOps inter
 - **Solution**: Modified Flask configuration to bind to all interfaces
 - **Time to Resolution**: 45 minutes with guidance
 
-### ✅ 4. Containerization & Orchestration
+### 4. Containerization & Orchestration
 - **Status**: Complete
 - **Deliverables**:
   - Multi-stage Dockerfile with security best practices
@@ -533,7 +533,7 @@ This report documents the successful completion of all tasks in the DevOps inter
   - Security scanning integration
   - Multi-service orchestration
 
-### ✅ 5. CI/CD Reflection & Proposal
+### 5. CI/CD Reflection & Proposal
 - **Status**: Complete
 - **Tool Selected**: GitHub Actions
 - **Rationale**: Native integration, cost-effective, extensive ecosystem
@@ -544,7 +544,7 @@ This report documents the successful completion of all tasks in the DevOps inter
   - Environment-based deployments
   - Monitoring and alerting integration
 
-### ✅ 6. Communication & Documentation
+### 6. Communication & Documentation
 - **Status**: Complete
 - **Deliverables**:
   - Comprehensive troubleshooting guide
@@ -631,7 +631,7 @@ cat > run-complete-demo.sh << 'EOF'
 #!/bin/bash
 # Complete demonstration script for DevOps Exercise
 
-echo "🚀 DevOps Exercise Complete Demonstration"
+echo "DevOps Exercise Complete Demonstration"
 echo "========================================="
 
 echo "1. Running disk monitor..."
@@ -655,13 +655,13 @@ echo -e "\n6. Cleanup..."
 docker stop demo-app
 docker rm demo-app
 
-echo -e "\n✅ Demonstration complete!"
+echo -e "\nDemonstration complete!"
 echo "See EXERCISE-REPORT.md for detailed documentation."
 EOF
 
 chmod +x run-complete-demo.sh
 
-echo "✅ Documentation and reporting completed"
+echo "Documentation and reporting completed"
 
 # =============================================================================
 # FINAL SUMMARY
@@ -672,14 +672,14 @@ echo "🎉 DevOps Intern Take-Home Exercise - COMPLETE! 🎉"
 echo "=================================================="
 echo ""
 echo "All tasks have been completed successfully:"
-echo "✅ 1. Bash Scripting & Linux Fundamentals"
-echo "✅ 2. Git Workflow with GitHub"
-echo "✅ 3. Troubleshooting Scenario Documentation"
-echo "✅ 4. Containerization & Orchestration"
-echo "✅ 5. CI/CD Pipeline Proposal"
-echo "✅ 6. Communication & Documentation"
+echo "1. Bash Scripting & Linux Fundamentals"
+echo "2. Git Workflow with GitHub"
+echo "3. Troubleshooting Scenario Documentation"
+echo "4. Containerization & Orchestration"
+echo "5. CI/CD Pipeline Proposal"
+echo "6. Communication & Documentation"
 echo ""
-echo "📁 Generated Files:"
+echo "Generated Files:"
 echo "- disk_monitor.sh (Disk monitoring script)"
 echo "- app.py (Flask web application)"
 echo "- Dockerfile (Container configuration)"
@@ -688,13 +688,13 @@ echo "- .github/workflows/ci-cd.yml (CI/CD pipeline)"
 echo "- EXERCISE-REPORT.md (Complete documentation)"
 echo "- Various troubleshooting and communication guides"
 echo ""
-echo "🚀 Next Steps:"
+echo "Next Steps:"
 echo "1. Create GitHub repository and push all files"
 echo "2. Take screenshots of running applications"
 echo "3. Test the CI/CD pipeline"
 echo "4. Review and submit all deliverables"
 echo ""
-echo "📞 Ready for technical interview discussion!"
+echo "Ready for technical interview discussion!"
 echo ""
 
 # Create a final checklist
@@ -703,13 +703,13 @@ cat > SUBMISSION-CHECKLIST.md << 'EOF'
 
 ## Required Deliverables
 
-### ✅ 1. Bash Scripting & Linux Fundamentals
+### 1. Bash Scripting & Linux Fundamentals
 - [ ] `disk_monitor.sh` script file
 - [ ] Log file generated by the script
 - [ ] Screenshot of script running
 - [ ] Reflection on design trade-offs
 
-### ✅ 2. Git Workflow
+### 2. Git Workflow
 - [ ] GitHub repository link (public/private)
 - [ ] README.md describing the repository
 - [ ] At least 2 meaningful commits
@@ -717,7 +717,7 @@ cat > SUBMISSION-CHECKLIST.md << 'EOF'
 - [ ] Open Pull Request screenshot
 - [ ] Workflow explanation
 
-### ✅ 3. Troubleshooting Scenario
+### 3. Troubleshooting Scenario
 - [ ] Detailed troubleshooting documentation
 - [ ] Terminal commands used
 - [ ] Configuration changes made
@@ -725,21 +725,21 @@ cat > SUBMISSION-CHECKLIST.md << 'EOF'
 - [ ] Root cause identification
 - [ ] Next steps if unresolved
 
-### ✅ 4. Containerization & Orchestration
+### 4. Containerization & Orchestration
 - [ ] Dockerfile for Hello DevOps container
 - [ ] Commands used to build and run
 - [ ] Screenshot of running container
 - [ ] Optional: Docker Compose or Kubernetes setup
 - [ ] Reflection on containerization benefits
 
-### ✅ 5. CI/CD Reflection & Proposal
+### 5. CI/CD Reflection & Proposal
 - [ ] CI/CD tool research and selection
 - [ ] Setup proposal for Python/Node.js app
 - [ ] Tool justification
 - [ ] Workflow diagram or steps
 - [ ] Implementation timeline
 
-### ✅ 6. Communication & Documentation
+### 6. Communication & Documentation
 - [ ] Internal troubleshooting guide
 - [ ] Professional help request examples
 - [ ] Escalation procedures
@@ -747,7 +747,7 @@ cat > SUBMISSION-CHECKLIST.md << 'EOF'
 
 ## Final Submission Package
 
-### 📁 File Structure
+### File Structure
 ```
 devops-exercise/
 ├── README.md
@@ -774,14 +774,14 @@ devops-exercise/
 └── SUBMISSION-CHECKLIST.md
 ```
 
-### 📊 Presentation Preparation
+### Presentation Preparation
 - [ ] 10-minute walkthrough prepared
 - [ ] Technical decisions and reasoning ready
 - [ ] Challenge examples and solutions
 - [ ] Questions about DevOps practices prepared
 - [ ] Learning outcomes documented
 
-### 🎯 Key Points to Discuss
+### Key Points to Discuss
 - Design decisions and trade-offs
 - Security considerations implemented
 - Scalability and maintainability aspects
@@ -789,10 +789,10 @@ devops-exercise/
 - Areas for improvement and learning
 
 ---
-**Submission Date**: ___________
-**GitHub Repository**: ___________
-**Time Invested**: ___________
+**Submission Date**: 04/09/2025
+**GitHub Repository**: https://github.com/GerediNIYIBIGIRA/devops-intern-one-acre-fund/tree/main
+**Time Invested**: 8 hours
 EOF
 
-echo "📋 Submission checklist created!"
-echo "Review SUBMISSION-CHECKLIST.md before final submission."
+echo "checklist created as SUBMISSION-CHECKLIST.md"
+echo "Thank you for giving me this opportunity to showcase my skills and knowledge in DevOps.

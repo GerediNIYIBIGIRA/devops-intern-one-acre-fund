@@ -2,7 +2,7 @@
 # DevOps Exercise Test Suite
 # Tests both the bash script and Docker application
 
-echo "🧪 DevOps Exercise Test Suite"
+echo "DevOps Exercise Test Suite"
 echo "================================"
 
 # Colors for output
@@ -18,16 +18,16 @@ FAILED=0
 # Function to print test results
 print_result() {
     if [ $1 -eq 0 ]; then
-        echo -e "${GREEN}✅ PASS${NC}: $2"
+        echo -e "${GREEN} PASS${NC}: $2"
         ((PASSED++))
     else
-        echo -e "${RED}❌ FAIL${NC}: $2"
+        echo -e "${RED} FAIL${NC}: $2"
         ((FAILED++))
     fi
 }
 
 echo ""
-echo "📋 Testing Bash Script (disk_monitor.sh)"
+echo "Testing Bash Script (disk_monitor.sh)"
 echo "----------------------------------------"
 
 # Test 1: Script exists and is executable
@@ -67,7 +67,7 @@ fi
 rm -f disk_monitor_test.sh
 
 echo ""
-echo "🐳 Testing Docker Application"
+echo "Testing Docker Application"
 echo "-----------------------------"
 
 # Test 6: Docker container is running
@@ -127,7 +127,7 @@ else
 fi
 
 echo ""
-echo "🔄 Load Testing"
+echo "Load Testing"
 echo "---------------"
 
 # Test 13: Application handles concurrent requests
@@ -149,16 +149,16 @@ else
 fi
 
 echo ""
-echo "📊 Test Results Summary"
+echo "Test Results Summary"
 echo "======================"
-echo -e "✅ Passed: ${GREEN}$PASSED${NC}"
-echo -e "❌ Failed: ${RED}$FAILED${NC}"
-echo -e "📈 Success Rate: $(( PASSED * 100 / (PASSED + FAILED) ))%"
+echo -e "Passed: ${GREEN}$PASSED${NC}"
+echo -e "Failed: ${RED}$FAILED${NC}"
+echo -e "Success Rate: $(( PASSED * 100 / (PASSED + FAILED) ))%"
 
 if [ $FAILED -eq 0 ]; then
     echo -e "\n🎉 ${GREEN}All tests passed! Your DevOps exercise is working perfectly.${NC}"
     exit 0
 else
-    echo -e "\n⚠️  ${YELLOW}Some tests failed. Please check the issues above.${NC}"
+    echo -e "\n ${YELLOW}Some tests failed. Please check the issues above.${NC}"
     exit 1
 fi

@@ -6,7 +6,7 @@ This report documents the successful completion of all tasks in the DevOps inter
 
 ## Task Completion Status
 
-### ✅ 1. Bash Scripting & Linux Fundamentals
+### 1. Bash Scripting & Linux Fundamentals
 - **Status**: Complete
 - **Deliverables**: 
   - `disk_monitor.sh` - Comprehensive disk monitoring script
@@ -19,9 +19,9 @@ This report documents the successful completion of all tasks in the DevOps inter
   - Error handling and user permissions check
   - Additional diagnostics for high disk usage
 
-### ✅ 2. Git Workflow
+### 2. Git Workflow
 - **Status**: Complete
-- **Repository**: [GitHub Repository Link]
+- **Repository**: [\[GitHub Repository Link\]](https://github.com/GerediNIYIBIGIRA/devops-intern-one-acre-fund/tree/main)
 - **Deliverables**:
   - Public GitHub repository with README.md
   - Multiple commits with meaningful messages
@@ -33,7 +33,7 @@ This report documents the successful completion of all tasks in the DevOps inter
   - Branch management
   - Pull request process
 
-### ✅ 3. Troubleshooting Scenario
+### 3. Troubleshooting Scenario
 - **Status**: Complete
 - **Scenario**: Web application connectivity issues
 - **Methodology Applied**:
@@ -47,7 +47,7 @@ This report documents the successful completion of all tasks in the DevOps inter
 - **Solution**: Modified Flask configuration to bind to all interfaces
 - **Time to Resolution**: 45 minutes with guidance
 
-### ✅ 4. Containerization & Orchestration
+### 4. Containerization & Orchestration
 - **Status**: Complete
 - **Deliverables**:
   - Multi-stage Dockerfile with security best practices
@@ -61,7 +61,7 @@ This report documents the successful completion of all tasks in the DevOps inter
   - Security scanning integration
   - Multi-service orchestration
 
-### ✅ 5. CI/CD Reflection & Proposal
+### 5. CI/CD Reflection & Proposal
 - **Status**: Complete
 - **Tool Selected**: GitHub Actions
 - **Rationale**: Native integration, cost-effective, extensive ecosystem
@@ -72,7 +72,7 @@ This report documents the successful completion of all tasks in the DevOps inter
   - Environment-based deployments
   - Monitoring and alerting integration
 
-### ✅ 6. Communication & Documentation
+### 6. Communication & Documentation
 - **Status**: Complete
 - **Deliverables**:
   - Comprehensive troubleshooting guide
@@ -148,7 +148,7 @@ The systematic approach to troubleshooting, combined with modern CI/CD practices
 
 ---
 
-**Completion Date**: $(date)
+**Completion Date**: $(04/09/2025)
 **Total Time Invested**: Approximately 8 hours
-**Repository**: [GitHub Link]
-**Contact**: [Your Contact Information]
+**Repository**: [\[GitHub Link\]](https://github.com/GerediNIYIBIGIRA/devops-intern-one-acre-fund/tree/main)
+**Contact**: ngeredi@alumni.cmu.edu/niygeredi@gmail.com, Tel: +250786403702

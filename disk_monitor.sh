@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # DevOps Intern Exercise - Disk Usage Monitor
-# Author: DevOps Intern Candidate
+# Author: Geredi NIYIBIGIRA
 # Date: $(date +%Y-%m-%d)
 
 # Configuration
