@@ -1,0 +1,316 @@
+2025-09-04 03:07:53 - === Disk Usage Monitor Started ===
+2025-09-04 03:07:53 - === System Information ===
+2025-09-04 03:07:53 - Hostname: hP
+2025-09-04 03:07:53 - Uptime:  03:07:53 up  1:18,  1 user,  load average: 0.00, 0.02, 0.04
+2025-09-04 03:07:53 - Available Memory: 14.47%
+2025-09-04 03:07:53 - Load Average: 0.00 0.02 0.04
+2025-09-04 03:07:53 - === Checking Disk Usage (Threshold: 80%) ===
+2025-09-04 03:07:53 - INFO: Disk usage on /mnt/wsl is 1% (Below 80% threshold)
+2025-09-04 03:07:53 - WARNING: Disk usage on /usr/lib/wsl/drivers is 99% (Above 80% threshold)
+2025-09-04 03:07:53 - Detailed usage for /usr/lib/wsl/drivers:
+2025-09-04 03:08:02 -   2.2G	/usr/lib/wsl/drivers/iigd_dch.inf_amd64_be838e90a74df6ac
+2025-09-04 03:08:02 -   2.0G	/usr/lib/wsl/drivers/nvbl.inf_amd64_28e16711616e3987
+2025-09-04 03:08:02 -   265M	/usr/lib/wsl/drivers/lms.inf_amd64_2d67ba3827645e11
+2025-09-04 03:08:02 -   230M	/usr/lib/wsl/drivers/fmapo.inf_amd64_08c178a69d6e4157
+2025-09-04 03:08:02 -   230M	/usr/lib/wsl/drivers/fmapo.inf_amd64_0762c87929ef5f69
+2025-09-04 03:08:02 -   176M	/usr/lib/wsl/drivers/hpcustomcapcomp.inf_amd64_c8f2b0058be57676
+2025-09-04 03:08:02 -   176M	/usr/lib/wsl/drivers/hpcustomcapcomp.inf_amd64_606eb4350ca8041f
+2025-09-04 03:08:02 -   173M	/usr/lib/wsl/drivers/wiman.inf_amd64_7976829cdaa6ca7e
+2025-09-04 03:08:02 -   155M	/usr/lib/wsl/drivers/wiman.inf_amd64_ee164cf790078967
+2025-09-04 03:08:02 -   139M	/usr/lib/wsl/drivers/intcoed.inf_amd64_29fd1afabcf5470c
+2025-09-04 03:08:02 - ALERT: One or more partitions exceed the 80% threshold
+2025-09-04 03:08:02 - === Additional Diagnostics ===
+2025-09-04 03:08:02 - Largest files in /tmp:
+2025-09-04 03:08:02 - Active processes by memory usage:
+2025-09-04 03:08:02 -   USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+2025-09-04 03:08:02 -   mysql        317  0.9  5.3 2376100 422592 ?      Ssl  01:49   0:43 /usr/sbin/mysqld
+2025-09-04 03:08:02 -   root        4789  0.0  1.0 2122264 80772 ?       Ssl  02:47   0:00 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+2025-09-04 03:08:02 -   root         242  0.0  0.7 2293436 59028 ?       Ssl  01:49   0:01 /usr/lib/snapd/snapd
+2025-09-04 03:08:02 -   root         284  0.1  0.6 2098236 55036 ?       Ssl  01:49   0:06 /usr/bin/containerd
+2025-09-04 03:08:02 -   niyge       6997  0.0  0.4  40696 33928 pts/0    T    02:53   0:00 python3 app.py
+2025-09-04 03:18:59 - === Disk Usage Monitor Started ===
+2025-09-04 03:18:59 - === System Information ===
+2025-09-04 03:18:59 - Hostname: hP
+2025-09-04 03:18:59 - Uptime:  03:18:59 up  1:29,  1 user,  load average: 0.00, 0.00, 0.00
+2025-09-04 03:18:59 - Available Memory: 14.47%
+2025-09-04 03:18:59 - Load Average: 0.00 0.00 0.00
+2025-09-04 03:18:59 - === Checking Disk Usage (Threshold: 80%) ===
+2025-09-04 03:18:59 - INFO: Disk usage on /mnt/wsl is 1% (Below 80% threshold)
+2025-09-04 03:18:59 - WARNING: Disk usage on /usr/lib/wsl/drivers is 99% (Above 80% threshold)
+2025-09-04 03:18:59 - Detailed usage for /usr/lib/wsl/drivers:
+2025-09-04 03:19:06 -   2.2G	/usr/lib/wsl/drivers/iigd_dch.inf_amd64_be838e90a74df6ac
+2025-09-04 03:19:06 -   2.0G	/usr/lib/wsl/drivers/nvbl.inf_amd64_28e16711616e3987
+2025-09-04 03:19:06 -   265M	/usr/lib/wsl/drivers/lms.inf_amd64_2d67ba3827645e11
+2025-09-04 03:19:06 -   230M	/usr/lib/wsl/drivers/fmapo.inf_amd64_08c178a69d6e4157
+2025-09-04 03:19:06 -   230M	/usr/lib/wsl/drivers/fmapo.inf_amd64_0762c87929ef5f69
+2025-09-04 03:19:06 -   176M	/usr/lib/wsl/drivers/hpcustomcapcomp.inf_amd64_c8f2b0058be57676
+2025-09-04 03:19:06 -   176M	/usr/lib/wsl/drivers/hpcustomcapcomp.inf_amd64_606eb4350ca8041f
+2025-09-04 03:19:06 -   173M	/usr/lib/wsl/drivers/wiman.inf_amd64_7976829cdaa6ca7e
+2025-09-04 03:19:06 -   155M	/usr/lib/wsl/drivers/wiman.inf_amd64_ee164cf790078967
+2025-09-04 03:19:06 -   139M	/usr/lib/wsl/drivers/intcoed.inf_amd64_29fd1afabcf5470c
+2025-09-04 03:19:06 - ALERT: One or more partitions exceed the 80% threshold
+2025-09-04 03:19:06 - === Additional Diagnostics ===
+2025-09-04 03:19:06 - Largest files in /tmp:
+2025-09-04 03:19:06 - Active processes by memory usage:
+2025-09-04 03:19:06 -   USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+2025-09-04 03:19:06 -   mysql        317  0.9  5.3 2376100 422592 ?      Ssl  01:49   0:48 /usr/sbin/mysqld
+2025-09-04 03:19:06 -   root        4789  0.0  1.1 2343972 88388 ?       Ssl  02:47   0:00 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+2025-09-04 03:19:06 -   root         242  0.0  0.7 2293436 58900 ?       Ssl  01:49   0:01 /usr/lib/snapd/snapd
+2025-09-04 03:19:06 -   root         284  0.1  0.6 2098236 55100 ?       Ssl  01:49   0:07 /usr/bin/containerd
+2025-09-04 03:19:06 -   root         297  0.0  0.2 106996 22736 ?        Ssl  01:49   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+2025-09-04 03:21:56 - === Disk Usage Monitor Started ===
+2025-09-04 03:21:56 - === System Information ===
+2025-09-04 03:21:56 - Hostname: hP
+2025-09-04 03:21:56 - Uptime:  03:21:56 up  1:32,  1 user,  load average: 0.07, 0.04, 0.01
+2025-09-04 03:21:56 - Available Memory: 14.47%
+2025-09-04 03:21:56 - Load Average: 0.07 0.04 0.01
+2025-09-04 03:21:56 - === Checking Disk Usage (Threshold: 80%) ===
+2025-09-04 03:21:56 - INFO: Disk usage on /mnt/wsl is 1% (Below 80% threshold)
+2025-09-04 03:21:56 - WARNING: Disk usage on /usr/lib/wsl/drivers is 99% (Above 80% threshold)
+2025-09-04 03:21:56 - Detailed usage for /usr/lib/wsl/drivers:
+2025-09-04 03:22:03 -   2.2G	/usr/lib/wsl/drivers/iigd_dch.inf_amd64_be838e90a74df6ac
+2025-09-04 03:22:03 -   2.0G	/usr/lib/wsl/drivers/nvbl.inf_amd64_28e16711616e3987
+2025-09-04 03:22:03 -   265M	/usr/lib/wsl/drivers/lms.inf_amd64_2d67ba3827645e11
+2025-09-04 03:22:03 -   230M	/usr/lib/wsl/drivers/fmapo.inf_amd64_08c178a69d6e4157
+2025-09-04 03:22:03 -   230M	/usr/lib/wsl/drivers/fmapo.inf_amd64_0762c87929ef5f69
+2025-09-04 03:22:03 -   176M	/usr/lib/wsl/drivers/hpcustomcapcomp.inf_amd64_c8f2b0058be57676
+2025-09-04 03:22:03 -   176M	/usr/lib/wsl/drivers/hpcustomcapcomp.inf_amd64_606eb4350ca8041f
+2025-09-04 03:22:03 -   173M	/usr/lib/wsl/drivers/wiman.inf_amd64_7976829cdaa6ca7e
+2025-09-04 03:22:03 -   155M	/usr/lib/wsl/drivers/wiman.inf_amd64_ee164cf790078967
+2025-09-04 03:22:03 -   139M	/usr/lib/wsl/drivers/intcoed.inf_amd64_29fd1afabcf5470c
+2025-09-04 03:22:03 - ALERT: One or more partitions exceed the 80% threshold
+2025-09-04 03:22:03 - === Additional Diagnostics ===
+2025-09-04 03:22:03 - Largest files in /tmp:
+2025-09-04 03:22:03 - Active processes by memory usage:
+2025-09-04 03:22:03 -   USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+2025-09-04 03:22:03 -   mysql        317  0.9  5.3 2377132 422592 ?      Ssl  01:49   0:50 /usr/sbin/mysqld
+2025-09-04 03:22:03 -   root        4789  0.0  1.0 2344228 87252 ?       Ssl  02:47   0:01 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+2025-09-04 03:22:03 -   root         242  0.0  0.7 2293692 58900 ?       Ssl  01:49   0:01 /usr/lib/snapd/snapd
+2025-09-04 03:22:03 -   root         284  0.1  0.6 2098236 53444 ?       Ssl  01:49   0:07 /usr/bin/containerd
+2025-09-04 03:22:03 -   root         297  0.0  0.2 106996 22736 ?        Ssl  01:49   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+2025-09-04 03:40:21 - === Disk Usage Monitor Started ===
+2025-09-04 03:40:21 - === System Information ===
+2025-09-04 03:40:21 - Hostname: hP
+2025-09-04 03:40:21 - Uptime:  03:40:21 up  1:51,  1 user,  load average: 0.04, 0.06, 0.02
+2025-09-04 03:40:21 - Available Memory: 17.11%
+2025-09-04 03:40:21 - Load Average: 0.04 0.06 0.02
+2025-09-04 03:40:21 - === Checking Disk Usage (Threshold: 80%) ===
+2025-09-04 03:40:21 - INFO: Disk usage on /mnt/wsl is 1% (Below 80% threshold)
+2025-09-04 03:40:21 - WARNING: Disk usage on /usr/lib/wsl/drivers is 99% (Above 80% threshold)
+2025-09-04 03:40:21 - Detailed usage for /usr/lib/wsl/drivers:
+2025-09-04 03:40:28 -   2.2G	/usr/lib/wsl/drivers/iigd_dch.inf_amd64_be838e90a74df6ac
+2025-09-04 03:40:28 -   2.0G	/usr/lib/wsl/drivers/nvbl.inf_amd64_28e16711616e3987
+2025-09-04 03:40:28 -   265M	/usr/lib/wsl/drivers/lms.inf_amd64_2d67ba3827645e11
+2025-09-04 03:40:28 -   230M	/usr/lib/wsl/drivers/fmapo.inf_amd64_08c178a69d6e4157
+2025-09-04 03:40:28 -   230M	/usr/lib/wsl/drivers/fmapo.inf_amd64_0762c87929ef5f69
+2025-09-04 03:40:28 -   176M	/usr/lib/wsl/drivers/hpcustomcapcomp.inf_amd64_c8f2b0058be57676
+2025-09-04 03:40:28 -   176M	/usr/lib/wsl/drivers/hpcustomcapcomp.inf_amd64_606eb4350ca8041f
+2025-09-04 03:40:28 -   173M	/usr/lib/wsl/drivers/wiman.inf_amd64_7976829cdaa6ca7e
+2025-09-04 03:40:28 -   155M	/usr/lib/wsl/drivers/wiman.inf_amd64_ee164cf790078967
+2025-09-04 03:40:28 -   139M	/usr/lib/wsl/drivers/intcoed.inf_amd64_29fd1afabcf5470c
+2025-09-04 03:40:28 - ALERT: One or more partitions exceed the 80% threshold
+2025-09-04 03:40:28 - === Additional Diagnostics ===
+2025-09-04 03:40:28 - Largest files in /tmp:
+2025-09-04 03:40:28 - Active processes by memory usage:
+2025-09-04 03:40:28 -   USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+2025-09-04 03:40:28 -   mysql        317  0.9  5.3 2377132 422592 ?      Ssl  01:49   1:00 /usr/sbin/mysqld
+2025-09-04 03:40:28 -   root        4789  0.1  1.1 2565936 93404 ?       Ssl  02:47   0:03 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+2025-09-04 03:40:28 -   root         242  0.0  0.7 2293692 58824 ?       Ssl  01:49   0:02 /usr/lib/snapd/snapd
+2025-09-04 03:40:28 -   root         284  0.1  0.7 2098492 56976 ?       Ssl  01:49   0:10 /usr/bin/containerd
+2025-09-04 03:40:28 -   sbt        12880  0.5  0.6 415020 48776 ?        Sl   03:26   0:04 /usr/local/bin/python app.py
+2025-09-04 03:40:28 - === Disk Usage Monitor Started ===
+2025-09-04 03:40:28 - === System Information ===
+2025-09-04 03:40:28 - Hostname: hP
+2025-09-04 03:40:28 - Uptime:  03:40:28 up  1:51,  1 user,  load average: 0.11, 0.07, 0.03
+2025-09-04 03:40:28 - Available Memory: 17.11%
+2025-09-04 03:40:28 - Load Average: 0.11 0.07 0.03
+2025-09-04 03:40:28 - === Checking Disk Usage (Threshold: 1%) ===
+2025-09-04 03:40:28 - WARNING: Disk usage on /mnt/wsl is 1% (Above 1% threshold)
+2025-09-04 03:40:28 - Detailed usage for /mnt/wsl:
+2025-09-04 03:40:28 -   4.0K	/mnt/wsl/resolv.conf
+2025-09-04 03:40:28 - ALERT: One or more partitions exceed the 1% threshold
+2025-09-04 03:40:28 - === Additional Diagnostics ===
+2025-09-04 03:40:28 - Largest files in /tmp:
+2025-09-04 03:40:28 - Active processes by memory usage:
+2025-09-04 03:40:28 -   USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+2025-09-04 03:40:28 -   mysql        317  0.9  5.3 2377132 422592 ?      Ssl  01:49   1:00 /usr/sbin/mysqld
+2025-09-04 03:40:28 -   root        4789  0.1  1.1 2565936 93404 ?       Ssl  02:47   0:03 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+2025-09-04 03:40:28 -   root         242  0.0  0.7 2293692 58824 ?       Ssl  01:49   0:02 /usr/lib/snapd/snapd
+2025-09-04 03:40:28 -   root         284  0.1  0.7 2098492 56976 ?       Ssl  01:49   0:10 /usr/bin/containerd
+2025-09-04 03:40:28 -   sbt        12880  0.5  0.6 415020 48776 ?        Sl   03:26   0:04 /usr/local/bin/python app.py
+2025-09-04 03:41:47 - === Disk Usage Monitor Started ===
+2025-09-04 03:41:47 - === System Information ===
+2025-09-04 03:41:47 - Hostname: hP
+2025-09-04 03:41:47 - Uptime:  03:41:47 up  1:52,  1 user,  load average: 0.05, 0.07, 0.03
+2025-09-04 03:41:47 - Available Memory: 17.11%
+2025-09-04 03:41:47 - Load Average: 0.05 0.07 0.03
+2025-09-04 03:41:47 - === Checking Disk Usage (Threshold: 80%) ===
+2025-09-04 03:41:47 - INFO: Disk usage on /mnt/wsl is 1% (Below 80% threshold)
+2025-09-04 03:41:47 - WARNING: Disk usage on /usr/lib/wsl/drivers is 99% (Above 80% threshold)
+2025-09-04 03:41:47 - Detailed usage for /usr/lib/wsl/drivers:
+2025-09-04 03:41:54 -   2.2G	/usr/lib/wsl/drivers/iigd_dch.inf_amd64_be838e90a74df6ac
+2025-09-04 03:41:54 -   2.0G	/usr/lib/wsl/drivers/nvbl.inf_amd64_28e16711616e3987
+2025-09-04 03:41:54 -   265M	/usr/lib/wsl/drivers/lms.inf_amd64_2d67ba3827645e11
+2025-09-04 03:41:54 -   230M	/usr/lib/wsl/drivers/fmapo.inf_amd64_08c178a69d6e4157
+2025-09-04 03:41:54 -   230M	/usr/lib/wsl/drivers/fmapo.inf_amd64_0762c87929ef5f69
+2025-09-04 03:41:54 -   176M	/usr/lib/wsl/drivers/hpcustomcapcomp.inf_amd64_c8f2b0058be57676
+2025-09-04 03:41:54 -   176M	/usr/lib/wsl/drivers/hpcustomcapcomp.inf_amd64_606eb4350ca8041f
+2025-09-04 03:41:54 -   173M	/usr/lib/wsl/drivers/wiman.inf_amd64_7976829cdaa6ca7e
+2025-09-04 03:41:54 -   155M	/usr/lib/wsl/drivers/wiman.inf_amd64_ee164cf790078967
+2025-09-04 03:41:54 -   139M	/usr/lib/wsl/drivers/intcoed.inf_amd64_29fd1afabcf5470c
+2025-09-04 03:41:54 - ALERT: One or more partitions exceed the 80% threshold
+2025-09-04 03:41:54 - === Additional Diagnostics ===
+2025-09-04 03:41:54 - Largest files in /tmp:
+2025-09-04 03:41:54 - Active processes by memory usage:
+2025-09-04 03:41:54 -   USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+2025-09-04 03:41:54 -   mysql        317  0.9  5.3 2377132 422592 ?      Ssl  01:49   1:01 /usr/sbin/mysqld
+2025-09-04 03:41:54 -   root        4789  0.1  1.1 2565936 93404 ?       Ssl  02:47   0:03 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+2025-09-04 03:41:54 -   root         242  0.0  0.7 2293692 58824 ?       Ssl  01:49   0:02 /usr/lib/snapd/snapd
+2025-09-04 03:41:54 -   root         284  0.1  0.7 2098492 57520 ?       Ssl  01:49   0:11 /usr/bin/containerd
+2025-09-04 03:41:54 -   sbt        12880  0.5  0.6 414988 48780 ?        Sl   03:26   0:05 /usr/local/bin/python app.py
+2025-09-04 03:41:54 - === Disk Usage Monitor Started ===
+2025-09-04 03:41:54 - === System Information ===
+2025-09-04 03:41:54 - Hostname: hP
+2025-09-04 03:41:54 - Uptime:  03:41:54 up  1:52,  1 user,  load average: 0.20, 0.10, 0.04
+2025-09-04 03:41:54 - Available Memory: 17.11%
+2025-09-04 03:41:54 - Load Average: 0.20 0.10 0.04
+2025-09-04 03:41:54 - === Checking Disk Usage (Threshold: 80%) ===
+2025-09-04 03:41:54 - INFO: Disk usage on /mnt/wsl is 1% (Below 80% threshold)
+2025-09-04 03:42:56 - === Disk Usage Monitor Started ===
+2025-09-04 03:42:56 - === System Information ===
+2025-09-04 03:42:56 - Hostname: hP
+2025-09-04 03:42:56 - Uptime:  03:42:56 up  1:53,  1 user,  load average: 0.18, 0.12, 0.05
+2025-09-04 03:42:56 - Available Memory: 17.11%
+2025-09-04 03:42:56 - Load Average: 0.18 0.12 0.05
+2025-09-04 03:42:56 - === Checking Disk Usage (Threshold: 80%) ===
+2025-09-04 03:42:56 - INFO: Disk usage on /mnt/wsl is 1% (Below 80% threshold)
+2025-09-04 03:42:56 - WARNING: Disk usage on /usr/lib/wsl/drivers is 99% (Above 80% threshold)
+2025-09-04 03:42:56 - Detailed usage for /usr/lib/wsl/drivers:
+2025-09-04 03:43:04 -   2.2G	/usr/lib/wsl/drivers/iigd_dch.inf_amd64_be838e90a74df6ac
+2025-09-04 03:43:04 -   2.0G	/usr/lib/wsl/drivers/nvbl.inf_amd64_28e16711616e3987
+2025-09-04 03:43:04 -   265M	/usr/lib/wsl/drivers/lms.inf_amd64_2d67ba3827645e11
+2025-09-04 03:43:04 -   230M	/usr/lib/wsl/drivers/fmapo.inf_amd64_08c178a69d6e4157
+2025-09-04 03:43:04 -   230M	/usr/lib/wsl/drivers/fmapo.inf_amd64_0762c87929ef5f69
+2025-09-04 03:43:04 -   176M	/usr/lib/wsl/drivers/hpcustomcapcomp.inf_amd64_c8f2b0058be57676
+2025-09-04 03:43:04 -   176M	/usr/lib/wsl/drivers/hpcustomcapcomp.inf_amd64_606eb4350ca8041f
+2025-09-04 03:43:04 -   173M	/usr/lib/wsl/drivers/wiman.inf_amd64_7976829cdaa6ca7e
+2025-09-04 03:43:04 -   155M	/usr/lib/wsl/drivers/wiman.inf_amd64_ee164cf790078967
+2025-09-04 03:43:04 -   139M	/usr/lib/wsl/drivers/intcoed.inf_amd64_29fd1afabcf5470c
+2025-09-04 03:43:04 - ALERT: One or more partitions exceed the 80% threshold
+2025-09-04 03:43:04 - === Additional Diagnostics ===
+2025-09-04 03:43:04 - Largest files in /tmp:
+2025-09-04 03:43:04 - Active processes by memory usage:
+2025-09-04 03:43:04 -   USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+2025-09-04 03:43:04 -   mysql        317  0.9  5.3 2377132 422592 ?      Ssl  01:49   1:01 /usr/sbin/mysqld
+2025-09-04 03:43:04 -   root        4789  0.1  1.1 2565936 93404 ?       Ssl  02:47   0:04 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+2025-09-04 03:43:04 -   root         242  0.0  0.7 2293692 58824 ?       Ssl  01:49   0:02 /usr/lib/snapd/snapd
+2025-09-04 03:43:04 -   root         284  0.1  0.7 2098492 57520 ?       Ssl  01:49   0:11 /usr/bin/containerd
+2025-09-04 03:43:04 -   sbt        12880  0.5  0.6 415020 48780 ?        Sl   03:26   0:05 /usr/local/bin/python app.py
+2025-09-04 03:43:15 - === Disk Usage Monitor Started ===
+2025-09-04 03:43:15 - === System Information ===
+2025-09-04 03:43:15 - Hostname: hP
+2025-09-04 03:43:15 - Uptime:  03:43:15 up  1:54,  1 user,  load average: 0.33, 0.16, 0.06
+2025-09-04 03:43:15 - Available Memory: 17.11%
+2025-09-04 03:43:15 - Load Average: 0.33 0.16 0.06
+2025-09-04 03:43:15 - === Checking Disk Usage (Threshold: 80%) ===
+2025-09-04 03:43:15 - INFO: Disk usage on /mnt/wsl is 1% (Below 80% threshold)
+2025-09-04 03:43:15 - WARNING: Disk usage on /usr/lib/wsl/drivers is 99% (Above 80% threshold)
+2025-09-04 03:43:15 - Detailed usage for /usr/lib/wsl/drivers:
+2025-09-04 03:43:22 -   2.2G	/usr/lib/wsl/drivers/iigd_dch.inf_amd64_be838e90a74df6ac
+2025-09-04 03:43:22 -   2.0G	/usr/lib/wsl/drivers/nvbl.inf_amd64_28e16711616e3987
+2025-09-04 03:43:22 -   265M	/usr/lib/wsl/drivers/lms.inf_amd64_2d67ba3827645e11
+2025-09-04 03:43:22 -   230M	/usr/lib/wsl/drivers/fmapo.inf_amd64_08c178a69d6e4157
+2025-09-04 03:43:22 -   230M	/usr/lib/wsl/drivers/fmapo.inf_amd64_0762c87929ef5f69
+2025-09-04 03:43:22 -   176M	/usr/lib/wsl/drivers/hpcustomcapcomp.inf_amd64_c8f2b0058be57676
+2025-09-04 03:43:22 -   176M	/usr/lib/wsl/drivers/hpcustomcapcomp.inf_amd64_606eb4350ca8041f
+2025-09-04 03:43:22 -   173M	/usr/lib/wsl/drivers/wiman.inf_amd64_7976829cdaa6ca7e
+2025-09-04 03:43:22 -   155M	/usr/lib/wsl/drivers/wiman.inf_amd64_ee164cf790078967
+2025-09-04 03:43:22 -   139M	/usr/lib/wsl/drivers/intcoed.inf_amd64_29fd1afabcf5470c
+2025-09-04 03:43:22 - ALERT: One or more partitions exceed the 80% threshold
+2025-09-04 03:43:22 - === Additional Diagnostics ===
+2025-09-04 03:43:22 - Largest files in /tmp:
+2025-09-04 03:43:22 - Active processes by memory usage:
+2025-09-04 03:43:22 -   USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+2025-09-04 03:43:22 -   mysql        317  0.9  5.3 2377132 422592 ?      Ssl  01:49   1:02 /usr/sbin/mysqld
+2025-09-04 03:43:22 -   root        4789  0.1  1.1 2565936 93404 ?       Ssl  02:47   0:04 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+2025-09-04 03:43:22 -   root         242  0.0  0.7 2293692 58824 ?       Ssl  01:49   0:02 /usr/lib/snapd/snapd
+2025-09-04 03:43:22 -   root         284  0.1  0.7 2098492 57520 ?       Ssl  01:49   0:11 /usr/bin/containerd
+2025-09-04 03:43:22 -   sbt        12880  0.5  0.6 414988 48780 ?        Sl   03:26   0:05 /usr/local/bin/python app.py
+2025-09-04 03:43:22 - === Disk Usage Monitor Started ===
+2025-09-04 03:43:22 - === System Information ===
+2025-09-04 03:43:22 - Hostname: hP
+2025-09-04 03:43:22 - Uptime:  03:43:22 up  1:54,  1 user,  load average: 0.38, 0.17, 0.07
+2025-09-04 03:43:22 - Available Memory: 17.11%
+2025-09-04 03:43:22 - Load Average: 0.38 0.17 0.07
+2025-09-04 03:43:22 - === Checking Disk Usage (Threshold: 1%) ===
+2025-09-04 03:43:22 - WARNING: Disk usage on /mnt/wsl is 1% (Above 1% threshold)
+2025-09-04 03:43:22 - Detailed usage for /mnt/wsl:
+2025-09-04 03:43:22 -   4.0K	/mnt/wsl/resolv.conf
+2025-09-04 03:43:22 - ALERT: One or more partitions exceed the 1% threshold
+2025-09-04 03:43:22 - === Additional Diagnostics ===
+2025-09-04 03:43:22 - Largest files in /tmp:
+2025-09-04 03:43:22 - Active processes by memory usage:
+2025-09-04 03:43:22 -   USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+2025-09-04 03:43:22 -   mysql        317  0.9  5.3 2377132 422592 ?      Ssl  01:49   1:02 /usr/sbin/mysqld
+2025-09-04 03:43:22 -   root        4789  0.1  1.1 2565936 93404 ?       Ssl  02:47   0:04 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+2025-09-04 03:43:22 -   root         242  0.0  0.7 2293692 58824 ?       Ssl  01:49   0:02 /usr/lib/snapd/snapd
+2025-09-04 03:43:22 -   root         284  0.1  0.7 2098492 57520 ?       Ssl  01:49   0:11 /usr/bin/containerd
+2025-09-04 03:43:22 -   sbt        12880  0.5  0.6 414988 48780 ?        Sl   03:26   0:05 /usr/local/bin/python app.py
+2025-09-04 04:24:20 - === Disk Usage Monitor Started ===
+2025-09-04 04:24:20 - === System Information ===
+2025-09-04 04:24:20 - Hostname: hP
+2025-09-04 04:24:20 - Uptime:  04:24:20 up  2:35,  1 user,  load average: 0.01, 0.03, 0.00
+2025-09-04 04:24:20 - Available Memory: 15.79%
+2025-09-04 04:24:20 - Load Average: 0.01 0.03 0.00
+2025-09-04 04:24:20 - === Checking Disk Usage (Threshold: 80%) ===
+2025-09-04 04:24:20 - INFO: Disk usage on /mnt/wsl is 1% (Below 80% threshold)
+2025-09-04 04:24:20 - WARNING: Disk usage on /usr/lib/wsl/drivers is 99% (Above 80% threshold)
+2025-09-04 04:24:20 - Detailed usage for /usr/lib/wsl/drivers:
+2025-09-04 04:24:28 -   2.2G	/usr/lib/wsl/drivers/iigd_dch.inf_amd64_be838e90a74df6ac
+2025-09-04 04:24:28 -   2.0G	/usr/lib/wsl/drivers/nvbl.inf_amd64_28e16711616e3987
+2025-09-04 04:24:28 -   265M	/usr/lib/wsl/drivers/lms.inf_amd64_2d67ba3827645e11
+2025-09-04 04:24:28 -   230M	/usr/lib/wsl/drivers/fmapo.inf_amd64_08c178a69d6e4157
+2025-09-04 04:24:28 -   230M	/usr/lib/wsl/drivers/fmapo.inf_amd64_0762c87929ef5f69
+2025-09-04 04:24:28 -   176M	/usr/lib/wsl/drivers/hpcustomcapcomp.inf_amd64_c8f2b0058be57676
+2025-09-04 04:24:28 -   176M	/usr/lib/wsl/drivers/hpcustomcapcomp.inf_amd64_606eb4350ca8041f
+2025-09-04 04:24:28 -   173M	/usr/lib/wsl/drivers/wiman.inf_amd64_7976829cdaa6ca7e
+2025-09-04 04:24:28 -   155M	/usr/lib/wsl/drivers/wiman.inf_amd64_ee164cf790078967
+2025-09-04 04:24:28 -   139M	/usr/lib/wsl/drivers/intcoed.inf_amd64_29fd1afabcf5470c
+2025-09-04 04:24:28 - ALERT: One or more partitions exceed the 80% threshold
+2025-09-04 04:24:28 - === Additional Diagnostics ===
+2025-09-04 04:24:28 - Largest files in /tmp:
+2025-09-04 04:24:28 - Active processes by memory usage:
+2025-09-04 04:24:28 -   USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+2025-09-04 04:24:28 -   mysql        317  0.8  5.3 2377132 422592 ?      Ssl  01:49   1:23 /usr/sbin/mysqld
+2025-09-04 04:24:28 -   root        4789  0.2  1.2 2713400 95816 ?       Ssl  02:47   0:11 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+2025-09-04 04:24:28 -   root         242  0.0  0.7 2293692 59208 ?       Ssl  01:49   0:02 /usr/lib/snapd/snapd
+2025-09-04 04:24:28 -   root         284  0.2  0.7 2098492 57960 ?       Ssl  01:49   0:20 /usr/bin/containerd
+2025-09-04 04:24:28 -   sbt        12880  0.5  0.5 414988 46792 ?        Sl   03:26   0:17 /usr/local/bin/python app.py
+2025-09-04 04:24:28 - === Disk Usage Monitor Started ===
+2025-09-04 04:24:28 - === System Information ===
+2025-09-04 04:24:28 - Hostname: hP
+2025-09-04 04:24:28 - Uptime:  04:24:28 up  2:35,  1 user,  load average: 0.09, 0.04, 0.01
+2025-09-04 04:24:28 - Available Memory: 17.11%
+2025-09-04 04:24:28 - Load Average: 0.09 0.04 0.01
+2025-09-04 04:24:28 - === Checking Disk Usage (Threshold: 1%) ===
+2025-09-04 04:24:28 - WARNING: Disk usage on /mnt/wsl is 1% (Above 1% threshold)
+2025-09-04 04:24:28 - Detailed usage for /mnt/wsl:
+2025-09-04 04:24:28 -   4.0K	/mnt/wsl/resolv.conf
+2025-09-04 04:24:28 - ALERT: One or more partitions exceed the 1% threshold
+2025-09-04 04:24:28 - === Additional Diagnostics ===
+2025-09-04 04:24:28 - Largest files in /tmp:
+2025-09-04 04:24:28 - Active processes by memory usage:
+2025-09-04 04:24:28 -   USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+2025-09-04 04:24:28 -   mysql        317  0.8  5.3 2377132 422592 ?      Ssl  01:49   1:23 /usr/sbin/mysqld
+2025-09-04 04:24:28 -   root        4789  0.2  1.2 2713400 95816 ?       Ssl  02:47   0:11 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+2025-09-04 04:24:28 -   root         242  0.0  0.7 2293692 59208 ?       Ssl  01:49   0:02 /usr/lib/snapd/snapd
+2025-09-04 04:24:28 -   root         284  0.2  0.7 2098492 57960 ?       Ssl  01:49   0:20 /usr/bin/containerd
+2025-09-04 04:24:28 -   sbt        12880  0.5  0.5 414988 46792 ?        Sl   03:26   0:17 /usr/local/bin/python app.py
+2025-09-04 04:34:48 - === Disk Usage Monitor Started ===
+2025-09-04 04:34:48 - === System Information ===
+2025-09-04 04:34:48 - Hostname: hP
+2025-09-04 04:34:48 - Uptime:  04:34:48 up  2:45,  1 user,  load average: 0.05, 0.04, 0.00
+2025-09-04 04:34:48 - Available Memory: 17.11%
+2025-09-04 04:34:48 - Load Average: 0.05 0.04 0.00
+2025-09-04 04:34:48 - === Checking Disk Usage (Threshold: 80%) ===
+2025-09-04 04:34:48 - INFO: Disk usage on /mnt/wsl is 1% (Below 80% threshold)
