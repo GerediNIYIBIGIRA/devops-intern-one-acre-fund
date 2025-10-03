@@ -1,6 +1,6 @@
-# DevOps Exercise Repository
+# DevOps practices Repository
 
-This repository contains the deliverables for my DevOps Intern take-home exercise.
+This repository contains the deliverables for my DevOps practices at Once Acre Fund.
 
 ## Project Structure
 
